@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Form Elements</title>
+</head>
+<body>
+   <form action="/submit" method="post">
+    <fieldset>
+         <legend>QS 1</legend>
+       <label for="name">Name:</label>
+       <input type="text" id="name" name="name" required>
+        <label for="email">email:</label>
+       <input type="email" id="email" name="email" required>
+        <label for="password">password:</label>        <!--  pole vvoda parolya  -->
+       <input type="password" id="password" name="password" required>
+    </fieldset>
+       <label for="textarea">Textarea:</label>
+       <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea><br><br>        <!--  dlya komentariya-->
+        <button type="submit">Submit</button>
+         <button type="reset">Reset</button>
+<label for="country">Country:</label>
+       <select id="country" name="country" required>
+           <option value="">Select your country</option>        <!--   chtoby vybrat stranu-->
+           <option value="rus">Russian</option>
+           <option value="ca">Canada</option>
+              <option value="kz">Kazakhstan</option>
+       </select>
+       <!--  -->
+
+   </form>
+</body>
+</html>
