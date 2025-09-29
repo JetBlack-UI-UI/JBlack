@@ -1,0 +1,11 @@
+p {color : red;}
+#krot {color : green;}
+#kro {font-weight: bold; }
+#krto { underline : true;}
+h1 {color : blue;}
+div {color : purple;} 
+#nekrot {color : rgb(179, 134, 50);}
+.nenekrot {color : rgba(255, 0, 0, 0.5);}
+/* poslednim v proretete teg (div)
+presposlednim classs (nenekrot)
+pervym idet id (nekrot)  */
