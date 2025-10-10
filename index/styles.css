@@ -1,0 +1,54 @@
+body {
+  font-family: Arial;
+  margin: 20px;
+}
+
+/* 1. Static */
+.static-box {
+  position: static;
+  background: lightblue;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+/* 2. Relative */
+.relative-box {
+  position: relative;
+  background: lightgreen;
+  top: 10px;
+  left: 20px;
+  padding: 10px;
+  width: 200px;
+}
+
+/* 3. Absolute */
+.container {
+  position: relative;
+  background: #eee;
+  height: 150px;
+  margin-bottom: 20px;
+}
+.absolute-box {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: pink;
+  padding: 10px;
+}
+
+/* 4. Fixed */
+.fixed-box {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background: orange;
+  padding: 10px;
+}
+
+/* 5. Sticky */
+.sticky-title {
+  position: sticky;
+  top: 0;
+  background: yellow;
+  padding: 10px;
+}
