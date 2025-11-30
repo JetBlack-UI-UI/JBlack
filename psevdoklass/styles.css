@@ -1,0 +1,61 @@
+h1 {
+ display: block;
+ font-size: 28px;
+ margin-bottom: 15px;
+}
+
+p {
+ display: block;
+ font-size: 18px;
+ margin-bottom: 12px;
+}
+
+div {
+ display: block;
+ font-size: 20px;
+ padding: 10px;
+ background: #f0f0f0;
+ margin-bottom: 15px;
+}
+
+img {
+ display: inline;
+ width: 150px;
+ height: auto;
+}
+
+.inline-p {
+ display: inline;
+ font-size: 18px;
+}
+
+.block-img {
+ display: block;
+ width: 150px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+.box {
+ display: block;
+ padding: 15px;
+ background: #e6e6e6;
+ margin-top: 20px;
+}
+
+.box p {
+ display: block;
+ margin-bottom: 10px;
+}
+
+.box img {
+ display: block;
+ margin-bottom: 10px;
+ width: 120px;
+}
+
+.box a {
+ display: block;
+ margin-bottom: 10px;
+ font-size: 18px;
+}
