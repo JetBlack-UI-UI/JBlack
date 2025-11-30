@@ -1,0 +1,31 @@
+button:hover {
+    background-color: lightblue;
+}
+
+input:focus {
+    border: 2px solid red;
+}
+
+ul li:first-child {
+    color: green;
+}
+
+ul li:last-child {
+    color: blue;
+}
+
+.block a:hover {
+    color: red;
+}
+
+.block p:nth-child(odd) {
+    background-color: #eee;
+}
+
+.big p:first-child:hover {
+    background-color: yellow;
+}
+
+.big input:last-child:focus {
+    background-color: lightgreen;
+}
